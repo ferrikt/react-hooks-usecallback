@@ -8,9 +8,10 @@ This is useful when passing callbacks to optimized child components that rely on
 
 # Description: 
 small example using 2 counters and functions to increase each of them
-iteration 1 - render when increase any of counters will re-render all components
-iteration 2 -Memo.usememo fix the problem and render only updated component + new function objects
-iteration 3 - useCallback fixes the issues with new function objects
+
+- iteration 1 - render when increase any of counters will re-render all components
+- iteration 2 -Memo.usememo fix the problem and render only updated component + new function objects
+- iteration 3 - useCallback fixes the issues with new function objects
 
 # Finals - why not useallback always = article
 https://dmitripavlutin.com/dont-overuse-react-usecallback/
